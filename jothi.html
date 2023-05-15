@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme photography</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 0;
+            background-color: white;
+            height: auto;
+        }
+        h1{
+            font-weight:800px;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin: 0;
+        }
+        h2{
+            font-weight: 400;
+            font-size: 1rem;
+            text-transform:capitalize;
+            margin: 0;
+        }
+        img{
+            display: block;
+            width: 100%;
+        }
+        main{
+            max-width: 900;
+            margin: auto;
+            box-shadow: 30px 0px rgba(0, 0, 0, 0.823)
+            -30px 40px rgba(0, 0, 0, 0.823);
+        }
+        .text{
+            background-color: white;
+        }
+        .text-leader{
+            display: flex;
+            flex: 0 1 40vh;
+            height: 50vh;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-right:1rem;
+            padding-left: 1rem;
+        }
+        .text-leader-h2{
+            color: gray;
+        }
+        .btn{
+            padding: 0.5rem 2rem;
+            border: 1px gray solid;
+            display: inline-block;
+            margin: 2rem 0 0;
+            border-radius: 50px;
+            text-decoration: none;
+            color: gray;
+        }
+        .btn-hover{
+            background-color: white;
+        }
+        .text-img{
+            background-image: url(camera.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:50vh;
+            flex: 0 1 60vw;
+            margin: 0;
+        }
+        .text-images{
+            padding: 1.5rem;
+            text-align: center;
+            background-color:white;
+            color:black;
+            box-shadow: 5px 10px #888888;
+        }
+        header{
+            background-color:rgba(0, 0, 0, 0.823);
+            color: white;
+            padding: 0.5em;
+            font-size:25px;
+        }
+        .caption{
+            padding-left: 0.8rem;
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+            padding: 2rem 1rem;
+            margin: auto;
+            color: black;
+        }
+        footer h3{
+            font-size: 3rem;
+            margin-bottom: 0;
+        }
+        @media(min-width:500px) {
+            .text{
+                display: flex;
+            }
+            .text-leader{
+                height: 100vh;
+            }
+            .text-img{
+                height: 100vh;
+            }
+        }
+        @media(min-width:700px){
+             .btn{
+                padding:1rem 3rem;
+             }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="text">
+            <div class="text-leader">
+                <div class="text-leader-inner">
+                    <h1>Acme photography</h1>
+                    <p>Beautiful natural photography</p>
+                    <button>view work</button>
+                </div>
+            </div>
+            <div class="text-img"></div>
+        </div>
+    </main>
+    <div class="text-images">
+        <header>|   our work   |</header>
+        <img  src="water.jpg" alt="">
+        <div class="caption">
+            <h1>photo one</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, nobis!</p>
+        </div>
+        <img  src="panda.jpg" alt="">
+        <div class="caption">
+            <h1>photo two</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, nobis!</p>
+        </div>
+        <img  src="heart.webp" alt="">
+        <div class="caption">
+            <h1>photo three</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, nobis!</p>
+        </div>
+        <img  src="flowers.webp" alt="">
+        <div class="caption">
+            <h1>photo four</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, nobis!</p>
+        </div>
+        <img  src="sky.webp" alt="">
+        <div class="caption">
+            <h1>photo five</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, nobis!</p>
+        </div>
+        <img  src="waterfall.jpg" alt="">
+        <div class="caption">
+            <h1>photo six</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, nobis!</p>
+        </div>
+
+
+    </div>
+    <footer>
+        <h1>Get in touch</h1>
+        <p>email or call us to set up a consult</p>
+        <p>email:<strong>contect@photoes.test</strong></p>
+        <p>phone:<strong>9952344106</strong></p>
+    </footer>
+    
+</body>
+</html>
+    
